@@ -1,9 +1,7 @@
 # Сложение
 addition = 'Сложение'
 try:
-    print('=' * len(addition))
-    print(addition)
-    print('=' * len(addition))
+    print('=' * len(addition), addition, '=' * len(addition), sep='\n')
 
     user_input_1 = float(input('Введите первое число: '))
     user_input_2 = float(input('Введите второе число: '))
@@ -15,9 +13,7 @@ except ValueError:
 # Вычитание
 subtraction = 'Вычитание'
 try:
-    print('=' * len(subtraction))
-    print(subtraction)
-    print('=' * len(subtraction))
+    print('=' * len(subtraction), subtraction, '=' * len(subtraction), sep='\n')
 
     user_input_1 = float(input('Введите первое число: '))
     user_input_2 = float(input('Введите второе число: '))
@@ -29,9 +25,7 @@ except ValueError:
 # Умножение
 multiplication = 'Умножение'
 try:
-    print('=' * len(multiplication))
-    print(multiplication)
-    print('=' * len(multiplication))
+    print('=' * len(multiplication), multiplication, '=' * len(multiplication), sep='\n')
 
     user_input_1 = float(input('Введите первое число: '))
     user_input_2 = float(input('Введите второе число: '))
@@ -43,9 +37,7 @@ except ValueError:
 # Деление
 division = 'Деление'
 try:
-    print('=' * len(division))
-    print(division)
-    print('=' * len(division))
+    print('=' * len(division), division, '=' * len(division), sep='\n')
 
     user_input_1 = float(input('Введите первое число: '))
     user_input_2 = float(input('Введите второе число: '))
